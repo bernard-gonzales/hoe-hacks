@@ -25,5 +25,6 @@ public class User
     public boolean emailValid(String email)
     {
         return true;
+
     }
 }
