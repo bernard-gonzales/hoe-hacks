@@ -7,4 +7,9 @@ public class Event {
         if(place != null)
             this.place = place;
     }
+    Event ()
+    {
+        this.place = null;
+        status = null;
+    }
 }
